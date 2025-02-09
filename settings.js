@@ -15,15 +15,15 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~D6BVyaJa#GD5N3QI71_WRuE7b7tWNr9J4a_qS6AvIQDCOaLkVgV8' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //=================================================//
-global.botname = process.env.BOT_NAME || '᙭ᑭᒪOᗩᗪᗴᖇ ᗷOT' 
+global.botname = process.env.BOT_NAME || 'ByTE-᙭ᑭᒪOᗩᗪᗴᖇ' 
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '6282120460623' 
 //Type your main number here
 
 //=================================================//
@@ -32,7 +32,7 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', 
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'ByteGhost' 
 //Type your name here
 
 //=================================================//
@@ -83,7 +83,7 @@ global.anticall = process.env.ANTI_CALL || 'false'
 // set true to enable and false to disable auto blocking of callers
 
 //=================================================//
-global.welcome = process.env.WELCOME_MSG || 'false'
+global.welcome = process.env.WELCOME_MSG || 'true'
 // set true to enable and false to disable welcoming and left messages to groups upon joining or leaving groups
 
 //=================================================//
